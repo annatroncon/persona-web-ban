@@ -1,25 +1,48 @@
 body{
     background-color: #F2ACB9;
-    color: #D73D63;   
+    color: #D73D63;  
+    margin: 0;
+    padding: 0; 
+    font-family: "Caveat", cursive;
+    
 }
 
-h1{
+h1, .personagem{
     color: #D73D63; 
+    font-family: "Caveat", cursive;
+    font-size: 30px;
 }
  div{
     background-color: #F2ACB9;
     padding: 10px 20px;
     margin: 10px;
-    border-radius: 100px;
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px rgba(133, 21, 73, 0.358);
+    border-left: #b3465a solid 10px;
+ }
+
+ .img{
+   display: flex;
+   justify-content: center;
+
  }
  
- .img{
+ .img img{
     border-radius: 20px;
-    margin-top: -150px;
-    height: 450;
-
+    height: 650;
+    box-shadow: 10px 5px 5px rgba(167, 53, 106, 0.358);
  }
+ 
 
  .introducao{
-    margin-top: 20px;
+    margin-top: 10px;
+ }
+
+ .rodape{
+   background-color: #f3c2cc;
+   text-align: center;
+   padding: 10px;
+ }
+ .rodape p{
+margin: 0;
  }
