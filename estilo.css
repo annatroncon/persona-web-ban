@@ -1,0 +1,25 @@
+body{
+    background-color: #F2ACB9;
+    color: #D73D63;   
+}
+
+h1{
+    color: #D73D63; 
+}
+ div{
+    background-color: #F2ACB9;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 100px;
+ }
+ 
+ .img{
+    border-radius: 20px;
+    margin-top: -150px;
+    height: 450;
+
+ }
+
+ .introducao{
+    margin-top: 20px;
+ }
